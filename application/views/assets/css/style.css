@@ -1,0 +1,211 @@
+* {
+  background-color:red;
+}
+
+/*html, body {
+	margin:0;
+	padding:0;
+}
+
+
+h1{
+	font-family:Arial;
+}
+
+.barre{
+	width:100%;
+	height:50px;
+	background-color: rgb(84,114,174);
+}
+
+.connect{
+	width:600px;
+	position: absolute;
+	right:0px;
+	top: 15px;
+}
+
+
+article {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.Inscription{
+	width:50%;
+	height:100%;
+}
+
+.Presentation{
+	width:50%;
+	height:100%;
+}
+	
+.inscrip{
+	width:300px;
+	height:30px;
+	border-radius:5px;
+}
+
+p{
+	font:Arial;
+
+}
+
+.barre2 {
+  margin-top: -10px;
+  height:68px;
+  width: 100%;
+  text-align:center;
+  background-color: rgb(84,114,174);
+  position: fixed;
+  z-index: 3;
+}
+.barre2 ul {
+  vertical-align: middle;
+} 
+.barre2 ul li{
+  float:left;
+  list-style:none
+}
+
+/* rendre les element du bandeau sous forme de block */
+ul.nav li {
+  display:block;
+  color: white;
+  font-size: 35px;
+  padding:0 10px;
+}
+
+
+/* organiser les elements du menu */
+.barre2 li.gauche {
+  float : left;
+  margin-left: 2px;
+  margin-right: 20px;
+}
+
+.barre2 li.droite {
+  float : right;
+  margin-right: 20px;
+} 
+
+.icone {
+	height: 40px;
+	width: 40px;
+}
+
+.creer_equipe, .rejoindre_equipe{
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.rejoindre_equipe {
+	margin-left: 200px;
+}
+
+.creer_equipe button, label
+{
+    display:block; 
+    width:100px; /* Attention : prenez une largeur suffisamment grande */
+    float:left;
+padding: 10px;
+}
+
+.creer_equipe form {
+ padding:10px;
+ width:280px;
+ }
+.creer_equipe fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:1px solid #DF3F3F;
+ }
+.creer_equipe legend {
+ color:#DF3F3F;
+ font-weight:bold
+ }
+.creer_equipe button, label {
+ margin-top:10px;
+ display:block;
+ }
+.creer_equipe label.inline {
+ display:inline;
+ margin-right:50px;
+ }
+.creer_equipe button, input, textarea, select, option {
+ background-color:#FFF3F3;
+ }
+.creer_equipe button, label textarea, select {
+ padding:3px;
+ border:1px solid #F5C5C5;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+.creer_equipe select {
+ margin-top:10px;
+ }
+.creer_equipe input[type=radio] {
+ background-color:transparent;
+ border:none;
+ width:10px;
+ }
+.creer_equipe button[type=submit], input[type=reset] {
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #D83F3D;
+ cursor:pointer;
+ }
+
+.creer_equipe button[type=submit]:hover, input[type=reset]:hover {
+ background-color:rgb(84,114,174)#FCDEDE;
+ }
+.creer_equipe button[type=submit]:active, input[type=reset]:active {
+ background-color:rgb(84,114,174);
+ box-shadow:1px 1px 1px #D83F3D inset;
+}
+
+.creer_equipe {
+	display: flex;
+    justify-content: space-around;
+}
+
+.formulaire1 {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+article {
+	background-color:#E9EEED
+}
+
+footer {
+  margin-top: 15px;
+  height:50px;
+  width: 100%;
+  text-align:center;
+  background-color:rgb(84,114,174); 
+}
+
+footer ul li{
+  float:left;
+  list-style:none;
+  color: white;
+  font-size: 25px;
+}
+
+footer li.gauche {
+  float : left;
+  margin-left: 10px;
+}
+
+footer li.droite {
+  float : right;
+  margin-right: 10px;
+} 
+
+.profil {
+  padding-left: 5%;
+  padding-right: 80%;
+}

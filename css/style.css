@@ -1,0 +1,357 @@
+
+
+html, body {
+  margin:0;
+  padding:0;
+}
+
+
+.BGS {
+  margin:0;
+ padding:0;
+ -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+ background-size: cover; /* version standardisée */
+}
+
+h1
+{
+  font-size: 48px;
+  text-shadow: -1px -1px #98a1b5, 1px 1px #7c8fb6, -1px 0 1px #647dae;
+  font-family:"Segoe print", Arial, Helvetica, sans-serif;
+  color: #5472ae;
+  padding-top: 20px;
+  margin:8px auto;
+  font-weight:lighter;
+  box-shadow:none;
+  text-align:center;
+}
+
+li {
+  display: inline-block;
+}
+.titre {
+  margin-left: 100px;
+}
+
+.barre{
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:50px;
+  background-color: rgb(84,114,174);
+}
+
+.connect{
+  width:700px;
+  position: absolute;
+  right:0px;
+  top: 15px;
+}
+
+.erreur {
+color:red;
+font:Arial;
+font-size: 25px;
+}
+
+.success {
+color:green;
+font:Arial;
+font-size: 25px;
+}
+
+#erreur_con {
+  margin-left:52%;
+}
+
+.Inscription{
+  width:50%;
+  height:100%;
+  margin-left: 25%;
+}
+
+.Inscription fieldset {
+padding:20px;
+  }
+
+.Presentation{
+  background-color: rgb(84,114,174);
+  border: 1px  font-size: 18px;solid #5472ae;
+  padding: 3px;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-size: 18px;
+  color: white;
+  margin: auto;
+  margin-top: 10px;
+  text-align: justify;
+  width:50%;
+}
+
+.inscrip{
+  width:300px;
+  height:30px;
+  border-radius:5px;
+}
+
+p{
+  font:Arial;
+
+}
+
+input[type=button], input[type=submit], input[type=reset], button, .button {
+  padding: 6px 15px;
+  margin: 3px 4px;
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 15px;
+  cursor: pointer;
+  background: #3577B8;
+  background: linear-gradient(top, #3577B8 0%, #1c5e9f 100%);
+  background: -moz-linear-gradient(top, #3577B8 0%, #1c5e9f 100%);
+  background: -webkit-linear-gradient(top, #3577B8 0%, #1c5e9f 100%);
+  background: -o-linear-gradient(top, #3577B8 0%, #1c5e9f 100%);
+  border: 1px solid #FFFFFF;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.25), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.25);
+  -moz-box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.25), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.25), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.25);
+  -o-box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.25), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.25);
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, button:hover, .button:hover {
+  background: linear-gradient(top, #4f91d2 0%, #3577B8 100%);
+  background: -moz-linear-gradient(top, #4f91d2 0%, #3577B8 100%);
+  background: -webkit-linear-gradient(top, #4f91d2 0%, #3577B8 100%);
+  background: -o-linear-gradient(top, #4f91d2 0%, #3577B8 100%);
+}
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active, button:active, .button:active{
+  opacity:0.8;
+}
+.barre2 {
+  margin-top: -10px;
+  height:68px;
+  width: 100%;
+  text-align:center;
+  background-color: rgb(84,114,174);
+  position: fixed;
+  z-index: 3;
+}
+.barre2 ul {
+  vertical-align: middle;
+}
+.barre2 ul li{
+  float:left;
+  list-style:none
+}
+
+/* rendre les element du bandeau sous forme de block */
+ul.nav li {
+  display:block;
+  color: white;
+  font-size: 35px;
+  padding:0 10px;
+}
+
+
+/* organiser les elements du menu */
+.barre2 li.gauche {
+  float : left;
+  margin-left: 2px;
+  margin-right: 20px;
+}
+
+.barre2 li.droite {
+  float : right;
+  margin-right: 20px;
+}
+
+.icone {
+  height: 40px;
+  width: 40px;
+}
+
+.creer_equipe, .rejoindre_equipe{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.rejoindre_equipe {
+  margin-left: 200px;
+}
+
+.creer_equipe button, label
+{
+    display:block;
+    width:100px; /* Attention : prenez une largeur suffisamment grande */
+    float:left;
+padding: 10px;
+}
+
+.creer_equipe form {
+ padding:10px;
+ width:280px;
+ }
+ fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:1px solid rgb(84,114,174);
+ }
+legend {
+ color:rgb(84,114,174);
+ font-weight:bold
+ }
+.creer_equipe button, label {
+ margin-top:10px;
+ display:block;
+ }
+.creer_equipe label.inline {
+ display:inline;
+ margin-right:50px;
+ }
+.creer_equipe button, input, textarea, select, option {
+ background-color:#D8F7FD;
+ }
+.creer_equipe button, label textarea, select {
+ padding:3px;
+ border:1px solid #D8F7FD;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+.creer_equipe select {
+ margin-top:10px;
+ }
+
+.creer_equipe button[type=submit], input[type=reset] {
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px white;
+ cursor:pointer;
+ }
+
+
+
+.creer_equipe {
+  display: flex;
+    justify-content: space-around;
+}
+
+
+footer {
+  margin-top: 15px;
+  height:50px;
+  width: 100%;
+  text-align:center;
+  background-color:rgb(84,114,174);
+}
+
+footer ul li{
+  float:left;
+  list-style:none;
+  color: white;
+  font-size: 25px;
+}
+
+footer li.gauche {
+  float : left;
+  margin-left: 10px;
+}
+
+footer li.droite {
+  float : right;
+  margin-right: 10px;
+}
+
+
+.profil {
+  background-color: #bdbdbd;
+  opacity: 0.85;
+  border: 1px solid #5472ae;
+  padding: 3px;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-top: 10px;
+  margin-left: 25%;
+  margin-right: 24%;
+  border-radius: 15px;
+}
+
+.profil  p {
+  font-size: 32px;
+  padding-left: 30px;
+   padding-left: 20px;
+  font-family: Arial;
+}
+
+.equipe {
+  background-color: #bdbdbd;
+  opacity: 0.80;
+  display: inline-block;
+  border: 1px solid #5472ae;
+  padding: 3px;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-top: 10px;
+  margin-left: 28%;
+  margin-right: 28%;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.equipe  p, a {
+
+  font-size: 22px;
+  padding-left: 30px;
+   padding-left: 20px;
+  font-family: Arial;
+
+}
+
+.profil td {
+  padding-right: 10px;
+}
+
+.profil #photo {
+  margin-right: 25%;
+}
+
+.admin form {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.entraineur form {
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.event {
+  background-color: #bdbdbd;
+  opacity: 0.80;
+  margin-left:30%;
+
+}
+
+.bouton_oui {
+ background: green;
+}
+
+.bouton_non {
+ background: red;
+}
+
+.equipe a{
+  text-decoration: none;
+color: blue;
+
+}
+
+.equipe a:active /* Quand le visiteur clique sur le lien */ {
+background-color: #FFCC66;
+}
+
